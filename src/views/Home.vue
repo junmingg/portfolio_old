@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1> This is the home page for Jun Ming's Portfolio. </h1>
+    <br>
     <body>
       <div class="wrapper">
         <div class="static-txt">Hello! I'm a</div>
@@ -33,11 +33,17 @@ export default {
   font-family: 'Poppins', sans-serif;
 }
 
+br {
+  content: "";
+  display: block;
+  margin: 50px 0;
+}
+
 body {
   display: flex;
   align-items: center;
-   justify-content: center;
-   min-height: 100vh;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .wrapper {
